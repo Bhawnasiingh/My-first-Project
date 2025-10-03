@@ -1,4 +1,4 @@
-/* General */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,7 +8,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,7 +52,6 @@ body {
   color: black;
 }
 
-/* Header */
 header {
   text-align: center;
   padding: 40px 20px;
@@ -70,7 +68,7 @@ header .banner {
   margin-top: 20px;
 }
 
-/* Chat Section */
+
 .chat-section {
   text-align: center;
   padding: 30px;
@@ -113,7 +111,7 @@ button:hover {
   background: RGB(0, 77, 78);
 }
 
-/* Chat bubbles like WhatsApp */
+
 .user-msg {
   background: #d4f8c4;
   align-self: flex-end;
@@ -129,7 +127,6 @@ button:hover {
   max-width: 75%;
 }
 
-/* Features Section */
 .features {
   text-align: center;
   padding: 40px 20px;
@@ -149,12 +146,11 @@ button:hover {
   text-align: center;
 }
 
-/* Center exercises */
+
 .center-cards {
   justify-content: center;
 }
 
-/* Exercises Section */
 .exercises {
   text-align: center;
   padding: 40px 20px;
@@ -169,7 +165,7 @@ button:hover {
 
 .exercises .card {
   position: relative;
-  color: white; /* text color on image */
+  color: white; 
   padding: 20px;
   border-radius: 12px;
   width: 250px;
@@ -189,19 +185,18 @@ button:hover {
   text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
-/* Background overlay */
+
 .exercises .card::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* halka image */
+  opacity: 0.5; 
   z-index: 1;
   border-radius: 12px;
 }
 
-/* Specific images for each card */
 .exercises .card.breathing::before {
   background-image: url("brr.jpg");
 }
@@ -212,7 +207,6 @@ button:hover {
   background-image: url("jouu.jpg");
 }
 
-/* Counselor */
 .counselor {
   background: #eaf3fc;
   padding: 30px;
@@ -220,7 +214,6 @@ button:hover {
   margin-top: 20px;
 }
 
-/* Register */
 .register {
   text-align: center;
   padding: 40px 20px;
@@ -251,11 +244,12 @@ button:hover {
   background: RGB(0, 77, 78);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 15px;
   background: RGB(0, 77, 78);
   color: white;
   margin-top: 20px;
+
 }
