@@ -1,4 +1,4 @@
-# My-first-Project
+Inner Heaven
 AI Mental Health Companion 
 
 This project is an AI-powered chatbot designed to support students’ mental health.
