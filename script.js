@@ -1,4 +1,4 @@
-// Chatbot responses
+
 const responses = {
   sad: [
     "I’m sorry you feel this way 💙. Remember, tough times don’t last, but you do!",
@@ -51,13 +51,13 @@ function sendMessage() {
 
   if (input.trim() === "") return;
 
-  // User message
+  
   let userMsg = document.createElement("div");
   userMsg.className = "user-msg";
   userMsg.textContent = "You: " + input;
   chatBox.appendChild(userMsg);
 
-  // Bot response
+  
   let botMsg = document.createElement("div");
   botMsg.className = "bot-msg";
 
@@ -75,7 +75,7 @@ function sendMessage() {
     category = "mental";
   }
 
-  // Pick random response
+
   let options = responses[category];
   let reply = options[Math.floor(Math.random() * options.length)];
 
@@ -86,7 +86,7 @@ function sendMessage() {
   document.getElementById("user-input").value = "";
 }
 
-// ✅ Exercises
+
 function showExercise(type) {
   if (type === "breathing") {
     alert("Breathing Exercise:\nInhale... Hold... Exhale... Repeat 5 times 🌬");
@@ -99,7 +99,7 @@ function showExercise(type) {
   }
 }
 
-// ✅ Counselor
 function connectCounselor() {
   alert("Connecting you to a counselor... (Here you can integrate live chat/Zoom API)");
+
 }
